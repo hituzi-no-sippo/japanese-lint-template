@@ -6,6 +6,6 @@
     "textlint-rule-preset-jtf-style": "^2.3.12"
   },
   "scripts": {
-    "lint": "textlint '**/*'"
+    "lint": "textlint --ignore-path .gitignore '**/*'"
   }
 }
